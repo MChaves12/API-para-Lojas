@@ -1,4 +1,5 @@
 const getAllProductsStatic = async (request, response) => {
+  throw new Error('Testantos Erros');
   response.status(200).json({ msg: 'Rota teste' });
 };
 
